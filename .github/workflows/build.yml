@@ -26,5 +26,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ["yadr/qbittorrent-docker:latest", "yadr/qbittorrent-docker:4.5.0",]
+          tags: ["yadr/qbittorrent-docker:latest", "yadr/qbittorrent-docker:4.5.0"]
           build-args: ["VERSION=4.5.0", "TARGETPLATFORM=linux/amd64"]
